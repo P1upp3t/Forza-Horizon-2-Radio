@@ -1,0 +1,21 @@
+FH2 HORIZON RADIO - FREEWARE TERMS
+
+Copyright (c) 2026 P1upp3t (Puppet). All rights reserved.
+
+Permission is granted to download and use the unmodified application free of
+charge. Donations are optional and do not grant additional software rights.
+You may share links to the official project page and official releases.
+
+No permission is granted to sell, relicense, repackage or redistribute modified
+copies of this application, or to copy or distribute its private source code.
+Other rights are reserved except as required by applicable law.
+
+This software is provided as is, without warranty of any kind. To the extent
+permitted by applicable law, the author is not liable for damage arising from
+its use. Compatibility with other game or launcher builds is not guaranteed.
+
+These terms cover only the author's original work. Third-party software,
+artwork, trademarks and assets retain their respective rights and licenses.
+No rights to Forza Horizon 2, Azimuth or third-party assets are granted here.
+The game and save files are not included. See THIRD-PARTY-NOTICES.txt and
+ARTWORK.md for third-party notices and sources.

@@ -1,0 +1,28 @@
+name: Bug report
+description: Report a reproducible Horizon Radio problem.
+title: "[Bug]: "
+body:
+  - type: input
+    id: versions
+    attributes:
+      label: App, Azimuth and game versions
+      placeholder: Horizon Radio 0.4.1 / Azimuth 0.9.9 / FH2 1.0.0.64
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected and actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional information
+      description: Include a video link if relevant. Review attachments; do not upload saves, credentials or your entire runtime folder.
