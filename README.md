@@ -31,6 +31,8 @@ Requires **Windows x64**, **Azimuth 0.9.9** and your own legitimate **FH2 1.0.0.
 
 For updates, choose **Quit app** before replacing the app files. Keep the entire `runtime/` folder: it stores your queue, preferences and original interface backup. The radio starts disabled; enabling it is your choice. The initial volume is 65%.
 
+Enable **Close to tray** in **Preferences → Window & tray** to keep the app running near the clock when you click X. Double-click the icon to reopen it; **Quit app** exits completely. **Start in tray** is optional.
+
 ## Compatibility & privacy
 
 The current release was tested with **Azimuth 0.9.9 / FH2 1.0.0.64**. Other builds are not confirmed compatible. Native audio integration is experimental.
@@ -39,7 +41,6 @@ The current release was tested with **Azimuth 0.9.9 / FH2 1.0.0.64**. Other buil
 - Switching off the app returns audio to the original station. The installed visual identity remains until you restore it with FH2 closed.
 - YouTube requests are sent to YouTube. Recommendations use the current track, without your Google account or browsing history. Queue and preferences stay on your PC.
 - Full YouTube playlists and Spotify queues are not currently supported. Removed, restricted or unavailable videos may fail. Interrupted streams produce an error instead of advancing as though the song finished.
-- Tray preference persistence is tested; close-to-tray and tray restoration still need a final manual desktop check.
 
 ## Feedback & credits
 

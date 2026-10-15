@@ -6,7 +6,7 @@ body:
     id: versions
     attributes:
       label: App, Azimuth and game versions
-      placeholder: Horizon Radio 0.4.1 / Azimuth 0.9.9 / FH2 1.0.0.64
+      placeholder: Horizon Radio 0.4.2 / Azimuth 0.9.9 / FH2 1.0.0.64
     validations:
       required: true
   - type: textarea

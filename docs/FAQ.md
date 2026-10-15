@@ -26,3 +26,6 @@ In runtime beside the executable. Keep this folder during updates. It contains y
 
 ## Does it require an account or external player?
 No Google login or external player is required. Audio libraries and the resolver are bundled; Microsoft Edge WebView2 provides the app window.
+
+## How do I keep the app running when I close its window?
+In Preferences → Window & tray, enable Close to tray. The X then hides the panel near the Windows clock. Double-click the icon to restore it, or use Open Horizon Radio in the tray menu. Quit app stops it completely. Version 0.4.2 fixes the tray initialization timing problem.
