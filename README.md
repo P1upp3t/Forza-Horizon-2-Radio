@@ -51,8 +51,4 @@ All features and downloads are free. [Optional support](https://ko-fi.com/puppet
 
 [Usage terms](docs/LICENSE.txt) · [Third-party notices](docs/THIRD-PARTY-NOTICES.txt) · [Artwork](docs/ARTWORK.md).
 
-## Acknowledgements
-
-Thank you to **RokkuDayo**, creator of [Forza Horizon 2 Extra Options](https://github.com/RokkuDayo/ForzaHorizon2_ExtraOptions), for a tool that helped investigate how the game works.
-
 An independent fan project by Puppet / P1upp3t, not affiliated with Microsoft, Xbox, Playground Games, Turn 10, Azimuth, YouTube or Spotify. No game, DLC, game files or license keys are included; donations do not grant a game license.
