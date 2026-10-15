@@ -21,6 +21,8 @@ A free Windows companion for **Forza Horizon 2 on Azimuth**. Bring your YouTube 
 - Play through the game's mixer, including the Festival speaker effects, with track and artist information on the HUD.
 - Pause with the game, when leaving its window or when switching away from your replacement station.
 - Apply a custom station name and the Horizon Radio logo, with a backup and restoration option.
+- Keep different radio, audio and window preferences as named configuration profiles. Loading a profile disables the radio and preserves your queue.
+- Switch between full and compact panel layouts; the view is remembered across launches.
 - English by default, eight optional interface translations and optional tray preferences.
 
 Version-by-version changes are in [Releases](https://github.com/P1upp3t/Forza-Horizon-2-Radio/releases) and the [itch.io devlog](https://puppetzim.itch.io/fh2-horizon-radio/devlog).

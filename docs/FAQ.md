@@ -47,3 +47,9 @@ Open Help and choose Preview report. Review it before exporting a TXT file. The 
 
 ## Can I launch the game from the app?
 Use Open FH2 + Radio on Overview. It starts Azimuth and enables the current queue. If needed, choose azimuth.exe in Preferences. An already running game is not launched again. Opening the app alone still leaves the radio disabled.
+
+## How do configuration profiles work?
+Open Preferences → Configuration profiles. Enter a name and save your current preferences as a new profile. You can keep up to 50 profiles and load, update, rename or delete them. Loading asks for confirmation and disables the radio. The current queue and game files stay unchanged. Profiles include station/name, language, volume, repeat, recommendations, normalization, window/tray preferences, startup update checks and compact mode. Changing station/name still requires applying station identity separately with FH2 closed. Keep runtime/profiles.json when updating.
+
+## Can I use a compact panel?
+Use Compact mode above the main panel. It reduces spacing and hides the large player artwork while keeping playback and queue controls available. Full mode restores the normal layout. The view is saved automatically and included in configuration profiles.
