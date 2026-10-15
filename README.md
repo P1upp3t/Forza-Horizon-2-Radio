@@ -4,7 +4,7 @@
 
 A free Windows companion for **Forza Horizon 2 on Azimuth**. Bring your YouTube music queue into the game's radio, with track information on the HUD and native Festival speaker effects.
 
-<a href="https://github.com/P1upp3t/Forza-Horizon-2-Radio/releases/latest"><img src="docs/buttons/download-latest.svg" alt="Download latest release" height="48" /></a>&nbsp;&nbsp;<a href="https://ko-fi.com/puppetzim"><img src="docs/buttons/support-kofi.svg" alt="Support on Ko-fi — optional" height="48" /></a>&nbsp;&nbsp;<a href="https://github.com/P1upp3t/Forza-Horizon-2-Radio/issues"><img src="docs/buttons/report-issue.svg" alt="Report an issue" height="48" /></a>
+<a href="https://github.com/P1upp3t/Forza-Horizon-2-Radio/releases/latest"><img src="docs/buttons/download-latest.svg" alt="Download latest release" height="48" /></a>&nbsp;&nbsp;<a href="https://ko-fi.com/puppetzim"><img src="docs/buttons/support-kofi.svg" alt="Support on Ko-fi — optional" height="48" /></a>&nbsp;&nbsp;<a href="https://puppetzim.itch.io/fh2-horizon-radio"><img src="docs/buttons/itchio.svg" alt="View on itch.io" height="48" /></a>&nbsp;&nbsp;<a href="https://github.com/P1upp3t/Forza-Horizon-2-Radio/issues"><img src="docs/buttons/report-issue.svg" alt="Report an issue" height="48" /></a>
 
 <p align="center"><a href="README.md">English</a> · <a href="docs/translations/README.pt-BR.md">Português (Brasil)</a> · <a href="docs/translations/README.zh-CN.md">简体中文</a> · <a href="docs/translations/README.hi.md">हिन्दी</a> · <a href="docs/translations/README.es.md">Español</a> · <a href="docs/translations/README.fr.md">Français</a> · <a href="docs/translations/README.ar.md">العربية</a> · <a href="docs/translations/README.bn.md">বাংলা</a> · <a href="docs/translations/README.ru.md">Русский</a></p>
 
@@ -18,7 +18,7 @@ A free Windows companion for **Forza Horizon 2 on Azimuth**. Bring your YouTube 
 - Apply a custom station name and the Horizon Radio logo, with a backup and restoration option.
 - English by default, eight optional interface translations and optional tray preferences.
 
-Version-by-version changes are in [Releases](https://github.com/P1upp3t/Forza-Horizon-2-Radio/releases).
+Version-by-version changes are in [Releases](https://github.com/P1upp3t/Forza-Horizon-2-Radio/releases) and the [itch.io devlog](https://puppetzim.itch.io/fh2-horizon-radio/devlog).
 
 ## Install & update
 
@@ -42,6 +42,8 @@ The current release was tested with **Azimuth 0.9.9 / FH2 1.0.0.64**. Other buil
 - Tray preference persistence is tested; close-to-tray and tray restoration still need a final manual desktop check.
 
 ## Feedback & credits
+
+[App page](https://puppetzim.itch.io/fh2-horizon-radio) · [Azimuth community topic](https://itch.io/t/7136486/fh2-horizon-radio-free-in-game-music-queue-for-azimuth)
 
 See the [FAQ](docs/FAQ.md) for setup, audio and restoration help. When [reporting an issue](https://github.com/P1upp3t/Forza-Horizon-2-Radio/issues/new/choose), include your app, game and Azimuth versions, reproduction steps and what you expected. Review attachments before posting; do not upload saves or your whole runtime folder.
 

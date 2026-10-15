@@ -15,3 +15,5 @@ Windows x64, Azimuth 0.9.9 और आपका अपना वैध FH2 1.0.0.
 [Download](https://github.com/P1upp3t/Forza-Horizon-2-Radio/releases/latest) · [Issues](https://github.com/P1upp3t/Forza-Horizon-2-Radio/issues) · [Ko-fi](https://ko-fi.com/puppetzim)
 
 [English — full documentation](../../README.md) · [FAQ](../FAQ.md)
+
+[itch.io](https://puppetzim.itch.io/fh2-horizon-radio) · [Devlog](https://puppetzim.itch.io/fh2-horizon-radio/devlog) · [Azimuth community](https://itch.io/t/7136486/fh2-horizon-radio-free-in-game-music-queue-for-azimuth)
