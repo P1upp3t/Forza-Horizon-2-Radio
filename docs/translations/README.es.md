@@ -10,7 +10,7 @@ El audio usa el mezclador del juego y los efectos del Festival. La cola sigue la
 
 Para actualizar, cierra la aplicación y conserva runtime. Para restaurar el nombre y logo originales, cierra FH2 y usa la restauración en Preferencias.
 
-Requiere Windows x64, Azimuth 0.9.9 y tu propia instalación legítima de FH2 1.0.0.64. Otros builds no están confirmados. El código permanece privado.
+Requiere Windows x64, Azimuth 0.9.10 y tu propia instalación legítima de FH2 1.0.0.64. Otros builds no están confirmados. El código permanece privado.
 
 [Download](https://github.com/P1upp3t/Forza-Horizon-2-Radio/releases/latest) · [Issues](https://github.com/P1upp3t/Forza-Horizon-2-Radio/issues) · [Ko-fi](https://ko-fi.com/puppetzim)
 

@@ -11,12 +11,16 @@ A free Windows companion for **Forza Horizon 2 on Azimuth**. Bring your YouTube 
 ## Features
 
 - Replace any of the seven radio stations with your queue. Innovative Leisure is selected by default.
-- Search YouTube by song or artist, or add video links. Choose tracks, reorder entries, repeat the queue and seek within a song.
+- Search YouTube by song or artist, or add video links. Choose tracks, reorder entries, repeat a track or the queue and seek within a song.
 - Save named queues and share them as JSON files. Append imported tracks or replace the current queue with confirmation.
 - Optionally normalize volume before audio enters the native game mixer.
 - Launch FH2 and enable your queue with **Open FH2 + Radio**.
 - Check and install compatible official updates with a local backup; optional startup checks are off by default.
 - Preview and export a diagnostic report without account details, local paths or queue links.
+- Save favorites and a bounded local listening history; add recent tracks back to your queue.
+- Exclude tracks or artist channels from recommendations and undo exclusions in Preferences.
+- Prepare the next audio source in the background; this is not an offline download or guaranteed gapless playback.
+- Configure optional Ctrl+Alt shortcuts for next, radio toggle and favorites; commands act only while FH2 is focused.
 - Continue with related recommendations after your manual queue ends, without signing into Google.
 - Play through the game's mixer, including the Festival speaker effects, with track and artist information on the HUD.
 - Pause with the game, when leaving its window or when switching away from your replacement station.
@@ -29,25 +33,27 @@ Version-by-version changes are in [Releases](https://github.com/P1upp3t/Forza-Ho
 
 ## Install & update
 
-Requires **Windows x64**, **Azimuth 0.9.9** and your own legitimate **FH2 1.0.0.64** installation. Python, Node, VLC and a separate browser player are not required. The app window uses Microsoft Edge WebView2. [Get Azimuth](https://almost-there-games.itch.io/azimuth).
+Requires **Windows x64**, **Azimuth 0.9.10** and your own legitimate **FH2 1.0.0.64** installation. Python, Node, VLC and a separate browser player are not required. The app window uses Microsoft Edge WebView2. [Get Azimuth](https://almost-there-games.itch.io/azimuth).
 
 1. [Download the latest release](https://github.com/P1upp3t/Forza-Horizon-2-Radio/releases/latest) and extract `horizon-radio` next to `azimuth.exe`.
 2. Open `FH2 Radio.exe` and search for music or add YouTube video links, one per line.
 3. Choose a replacement station in **Preferences**, enable the radio, then select that station in FH2.
 4. To install the station name and logo, close FH2 and choose **Apply station identity**, then reopen the game.
 
-In **Preferences → App updates**, check official releases, download an update and choose **Install & restart** with FH2 closed. The previous app files are backed up in `runtime/updates`; installation errors restore those files. Manual updating is also supported: choose **Quit app** before replacing the app files. Keep the entire `runtime/` folder: it stores your queue, preferences and original interface backup. The radio starts disabled; enabling it is your choice. The initial volume is 65%.
+In **Preferences → App updates**, check official releases, download an update and choose **Install & restart** with FH2 closed. The previous app files are backed up in `runtime/updates`; installation errors restore those files. When updating to 0.6.0, restart FH2 to load the updated audio adapter. Manual updating is also supported: choose **Quit app** before replacing the app files. Keep the entire `runtime/` folder: it stores your queue, preferences and original interface backup. The radio starts disabled; enabling it is your choice. The initial volume is 65%.
 
 Enable **Close to tray** in **Preferences → Window & tray** to keep the app running near the clock when you click X. Double-click the icon to reopen it; **Quit app** exits completely. **Start in tray** is optional.
 
 ## Compatibility & privacy
 
-The current release was tested with **Azimuth 0.9.9 / FH2 1.0.0.64**. Other builds are not confirmed compatible. Native audio integration is experimental.
+The current release was tested with **Azimuth 0.9.10 / FH2 1.0.0.64**. Azimuth 0.9.9 was also tested previously. Other builds are not confirmed compatible. Native audio integration is experimental.
 
 - The radio adapter modifies game memory while active. Applying the station identity modifies the game's UI archive and manifest, preserving verified originals. Game saves are not modified.
 - Switching off the app returns audio to the original station. The installed visual identity remains until you restore it with FH2 closed.
 - YouTube requests are sent to YouTube. Recommendations use the current track, without your Google account or browsing history. Queue and preferences stay on your PC. Search queries are sent to YouTube without signing in. Optional update checks contact the official GitHub repository. Diagnostic reports are reviewed and exported locally; nothing is uploaded automatically.
 - Full YouTube playlists and Spotify queues are not currently supported. Removed, restricted or unavailable videos may fail. Interrupted streams produce an error instead of advancing as though the song finished.
+
+Known limitation: a short fragment of original station audio can still play before the replacement starts. Common unsupported HUD punctuation is normalized, but the game font still limits character support.
 
 ## Feedback & credits
 

@@ -1,7 +1,7 @@
 # Frequently asked questions
 
 ## Which versions are supported?
-Windows x64, Azimuth 0.9.9 and FH2 1.0.0.64. Other builds are not confirmed.
+Windows x64, Azimuth 0.9.10 (confirmed in game) and FH2 1.0.0.64. Azimuth 0.9.9 was also tested previously. Other builds are not confirmed.
 
 ## Why is there no sound?
 Enable the radio in the app, return to FH2 and select the replacement station. Unpause the game and check both the app and game radio volumes. The default app volume is 65%. Other stations do not play your queue.
@@ -53,3 +53,18 @@ Open Preferences → Configuration profiles. Enter a name and save your current 
 
 ## Can I use a compact panel?
 Use Compact mode above the main panel. It reduces spacing and hides the large player artwork while keeping playback and queue controls available. Full mode restores the normal layout. The view is saved automatically and included in configuration profiles.
+
+## What is new in 0.6.0?
+Favorites (up to 500), local listening history (up to 200 entries after five seconds of playback), reversible recommendation exclusions, repeat-current-track mode, next-source preparation, installed station identity checks and optional keyboard shortcuts. History can be cleared with confirmation; favorites and exclusions stay local. Manual queue entries play even when excluded from recommendations. Artist matching uses the channel ID when available, otherwise the displayed name.
+
+## How do the keyboard shortcuts work?
+Open Preferences → Keyboard shortcuts. Use Ctrl+Alt with a letter, number or F1-F12. All shortcuts are disabled by default. Commands act only while FH2 is focused, but their configured combinations are reserved by Windows while the app runs. Clear a field to disable its shortcut. Conflicting combinations are rejected.
+
+## Why do I briefly hear the original radio?
+A short fragment can still play before Horizon Radio starts. Version 0.6.0 attaches replacement audio earlier, but this issue remains present in the in-game test. Do not expect a completely silent handover.
+
+## Why do some HUD characters differ from the app?
+The game font does not support every character. Common unsupported punctuation is normalized and long HUD names are shortened. Original metadata stays intact in the app; the game font itself is not replaced.
+
+## Should I restart FH2 when updating to 0.6.0?
+Yes. Close FH2 and choose Quit app, replace the three app files while keeping runtime, then reopen FH2. The updated audio adapter cannot replace an older adapter that is already loaded in the game. This is separate from applying station name/logo changes, which also requires closing and reopening FH2.

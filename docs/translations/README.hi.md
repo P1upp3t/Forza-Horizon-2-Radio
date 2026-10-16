@@ -10,7 +10,7 @@ Azimuth पर Forza Horizon 2 के रेडियो में अपनी 
 
 अपडेट से पहले ऐप बंद करें और runtime रखें। मूल नाम और लोगो वापस लाने के लिए FH2 बंद करके पसंद में पुनर्स्थापना का उपयोग करें।
 
-Windows x64, Azimuth 0.9.9 और आपका अपना वैध FH2 1.0.0.64 इंस्टॉलेशन आवश्यक है। अन्य बिल्ड की अनुकूलता की पुष्टि नहीं हुई है। स्रोत कोड निजी है।
+Windows x64, Azimuth 0.9.10 और आपका अपना वैध FH2 1.0.0.64 इंस्टॉलेशन आवश्यक है। अन्य बिल्ड की अनुकूलता की पुष्टि नहीं हुई है। स्रोत कोड निजी है।
 
 [Download](https://github.com/P1upp3t/Forza-Horizon-2-Radio/releases/latest) · [Issues](https://github.com/P1upp3t/Forza-Horizon-2-Radio/issues) · [Ko-fi](https://ko-fi.com/puppetzim)
 
