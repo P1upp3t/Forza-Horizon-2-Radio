@@ -13,7 +13,7 @@ Try selecting the track again. Video restrictions and availability can change. V
 Yes. Audio is passed through the native game mixer. Festival speaker effects, pause/resume and station switching were confirmed in the tested installation.
 
 ## Can I use Spotify or a full YouTube playlist?
-Not in this version. Add individual YouTube video links, one per line. Related recommendations can continue playback after your manual queue.
+Public YouTube playlists are supported in 0.6.1. Open YouTube playlists & themed stations, paste a URL or PL ID, preview it and choose Append or Replace. Up to 500 unique tracks are imported in order. Previewing does not change your queue or start playback; Replace asks for confirmation and stops playback. Spotify is not supported yet.
 
 ## How do I change the station name and logo?
 Choose the station and name in Preferences. Close FH2, apply the station identity and reopen the game. Changes to audio station selection apply immediately; visual changes require applying the identity with FH2 closed.
@@ -61,10 +61,16 @@ Favorites (up to 500), local listening history (up to 200 entries after five sec
 Open Preferences → Keyboard shortcuts. Use Ctrl+Alt with a letter, number or F1-F12. All shortcuts are disabled by default. Commands act only while FH2 is focused, but their configured combinations are reserved by Windows while the app runs. Clear a field to disable its shortcut. Conflicting combinations are rejected.
 
 ## Why do I briefly hear the original radio?
-A short fragment can still play before Horizon Radio starts. Version 0.6.0 attaches replacement audio earlier, but this issue remains present in the in-game test. Do not expect a completely silent handover.
+Version 0.6.1 prepares radio source channels before selection. No original-radio fragment was heard during the tested station transitions, including pause/resume. If you still hear one, report the station, app/Azimuth versions and whether it happens on initial enable or later station switching.
 
 ## Why do some HUD characters differ from the app?
 The game font does not support every character. Common unsupported punctuation is normalized and long HUD names are shortened. Original metadata stays intact in the app; the game font itself is not replaced.
 
 ## Should I restart FH2 when updating to 0.6.0?
 Yes. Close FH2 and choose Quit app, replace the three app files while keeping runtime, then reopen FH2. The updated audio adapter cannot replace an older adapter that is already loaded in the game. This is separate from applying station name/logo changes, which also requires closing and reopening FH2.
+
+## What are themed stations?
+Two initial community soundtrack playlists are offered: Need for Speed: Most Wanted (2005) and Forza Horizon 5 - Horizon Bass Arena. Preview and import one into your queue. They are public third-party playlists, not official stations or bundled audio; contents and availability can change. Imports are local snapshots. No private playlists, Mix IDs or automatic live synchronization. The preview shows the first 30 titles and the total import count. Some removed/restricted videos may not play, and later-page metadata may refresh during playback.
+
+## Does minimizing go to the tray?
+Yes, starting in 0.6.1. Windows minimize and Minimize panel send the app near the clock, with its tray icon available even when Close to tray is disabled. Double-click the icon or choose Open Horizon Radio to restore the window. Quit app exits completely; closing X still follows your tray preferences.
