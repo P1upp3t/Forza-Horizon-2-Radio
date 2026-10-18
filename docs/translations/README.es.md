@@ -16,4 +16,9 @@ Requiere Windows x64, Azimuth 0.9.10 y tu propia instalación legítima de FH2 1
 
 [English — full documentation](../../README.md) · [FAQ](../FAQ.md)
 
-[itch.io](https://puppetzim.itch.io/fh2-horizon-radio) · [Devlog](https://puppetzim.itch.io/fh2-horizon-radio/devlog) · [Azimuth community](https://itch.io/t/7136486/fh2-horizon-radio-free-in-game-music-queue-for-azimuth)
+[itch.io](https://puppetzim.itch.io/fh2-horizon-radio) · [Devlog](https://puppetzim.itch.io/fh2-horizon-radio/devlog)
+
+
+## 0.7.0
+
+La versión 0.7.0 limpia títulos automáticamente, cambia de canción al detectar la entrada en un evento, comparte emisoras, revisa la cola y permite vaciarla/deshacer. No hay editor manual. La revisión consulta metadatos públicos y no garantiza reproducción; no elimina nada automáticamente. La imagen importada debe aplicarse con FH2 cerrado.

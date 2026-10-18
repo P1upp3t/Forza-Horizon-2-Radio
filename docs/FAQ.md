@@ -74,3 +74,19 @@ Two initial community soundtrack playlists are offered: Need for Speed: Most Wan
 
 ## Does minimizing go to the tray?
 Yes, starting in 0.6.1. Windows minimize and Minimize panel send the app near the clock, with its tray icon available even when Close to tray is disabled. Double-click the icon or choose Open Horizon Radio to restore the window. Quit app exits completely; closing X still follows your tray preferences.
+
+
+## Are song titles cleaned automatically?
+Yes. Version 0.7.0 removes common upload annotations such as Official Video, Official Audio, Lyrics and bracketed quality labels. Live, Remix, Acoustic and similar version information is retained. Ambiguous title text is kept rather than aggressively removed. The original provider title is retained locally; the app and HUD use the cleaned display title. There is no manual title editor.
+
+## What happens when I enter an event?
+After established free roam, detecting a supported event advances once to the next queued song. At the end of a multi-track queue, it returns to the first entry. A single-song queue continues. Leaving the event does not change songs. Pauses, focus changes and uncertain reads are not treated as event entry; opening the app inside an event establishes a baseline without skipping. Restarting an event without returning to free roam is not currently a separate trigger. The new trigger has automated transition coverage; actual event timing is not yet manually confirmed for this release.
+
+## Can I share a whole station?
+Expand Share a station and export its JSON file. The file contains its name, replacement slot, standard Horizon Radio logo identity and video links with metadata; it contains no music, credentials or game files. Preview before importing, choose Append or Replace, and optionally use the imported name and slot. Import stops playback. Artwork is not installed by import: apply station identity separately with FH2 closed, then reopen the game. Arbitrary custom logo files are not part of station presets.
+
+## Does the queue check guarantee a video will play?
+No. It checks duplicate video IDs and public metadata, not the full playback stream. A public metadata result is not a playback guarantee; network, access and rate-limit errors are marked uncertain. Checks have a 60-second work budget, with up to five seconds for an in-flight request; remaining entries stay unchecked. Select entries yourself and confirm removal. Queue edits invalidate old results.
+
+## Can I clear or undo my queue?
+Clear queue asks for confirmation and stops playback. Saved queues, favorites, history and settings remain. Undo clear restores the previous queue without enabling playback while the queue remains empty; adding new tracks or closing the app ends that undo opportunity. Removing the current song through the health check also stops playback.

@@ -16,4 +16,9 @@
 
 [English — full documentation](../../README.md) · [FAQ](../FAQ.md)
 
-[itch.io](https://puppetzim.itch.io/fh2-horizon-radio) · [Devlog](https://puppetzim.itch.io/fh2-horizon-radio/devlog) · [Azimuth community](https://itch.io/t/7136486/fh2-horizon-radio-free-in-game-music-queue-for-azimuth)
+[itch.io](https://puppetzim.itch.io/fh2-horizon-radio) · [Devlog](https://puppetzim.itch.io/fh2-horizon-radio/devlog)
+
+
+## 0.7.0
+
+Версия 0.7.0 автоматически очищает названия, меняет трек при обнаруженном входе в событие, позволяет делиться станциями, проверять и очищать очередь с отменой. Ручного редактора нет. Публичные метаданные не гарантируют воспроизведение; автоматического удаления нет. Оформление импортированной станции применяется при закрытой FH2.

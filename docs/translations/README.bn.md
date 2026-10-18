@@ -16,4 +16,9 @@ Windows x64, Azimuth 0.9.10 এবং নিজের বৈধ FH2 1.0.0.64 ই
 
 [English — full documentation](../../README.md) · [FAQ](../FAQ.md)
 
-[itch.io](https://puppetzim.itch.io/fh2-horizon-radio) · [Devlog](https://puppetzim.itch.io/fh2-horizon-radio/devlog) · [Azimuth community](https://itch.io/t/7136486/fh2-horizon-radio-free-in-game-music-queue-for-azimuth)
+[itch.io](https://puppetzim.itch.io/fh2-horizon-radio) · [Devlog](https://puppetzim.itch.io/fh2-horizon-radio/devlog)
+
+
+## 0.7.0
+
+0.7.0 নিজে থেকে শিরোনাম পরিষ্কার করে, ইভেন্টে প্রবেশ শনাক্ত হলে গান বদলায়, স্টেশন শেয়ার, সারি পরীক্ষা এবং খালি/ফেরানো দেয়। ম্যানুয়াল সম্পাদক নেই। পাবলিক মেটাডেটা চলার নিশ্চয়তা নয় এবং নিজে থেকে কিছু মুছে না। আমদানি করা পরিচয় FH2 বন্ধ করে আলাদা লাগাতে হবে।

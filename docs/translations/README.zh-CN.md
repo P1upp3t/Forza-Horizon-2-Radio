@@ -16,4 +16,9 @@
 
 [English — full documentation](../../README.md) · [FAQ](../FAQ.md)
 
-[itch.io](https://puppetzim.itch.io/fh2-horizon-radio) · [Devlog](https://puppetzim.itch.io/fh2-horizon-radio/devlog) · [Azimuth community](https://itch.io/t/7136486/fh2-horizon-radio-free-in-game-music-queue-for-azimuth)
+[itch.io](https://puppetzim.itch.io/fh2-horizon-radio) · [Devlog](https://puppetzim.itch.io/fh2-horizon-radio/devlog)
+
+
+## 0.7.0
+
+0.7.0 自动清理歌曲标题，在检测到进入赛事时切换歌曲，支持分享电台、检查队列及清空后撤销。没有手动标题编辑器。公开元数据检查不保证可播放，也不会自动删除歌曲。导入电台后仍需关闭 FH2 再单独应用外观。

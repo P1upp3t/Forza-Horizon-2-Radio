@@ -16,4 +16,9 @@
 
 [English — full documentation](../../README.md) · [FAQ](../FAQ.md)
 
-[itch.io](https://puppetzim.itch.io/fh2-horizon-radio) · [Devlog](https://puppetzim.itch.io/fh2-horizon-radio/devlog) · [Azimuth community](https://itch.io/t/7136486/fh2-horizon-radio-free-in-game-music-queue-for-azimuth)
+[itch.io](https://puppetzim.itch.io/fh2-horizon-radio) · [Devlog](https://puppetzim.itch.io/fh2-horizon-radio/devlog)
+
+
+## 0.7.0
+
+ينظف الإصدار 0.7.0 العناوين تلقائياً ويبدل الأغنية عند اكتشاف دخول حدث، ويتيح مشاركة المحطات وفحص الطابور وإفراغه مع التراجع. لا محرر يدوي للعناوين. البيانات العامة لا تضمن التشغيل ولا حذف تلقائي. طبّق هوية المحطة المستوردة منفصلة مع إغلاق FH2.

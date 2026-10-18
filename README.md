@@ -10,6 +10,12 @@ A free Windows companion for **Forza Horizon 2 on Azimuth**. Bring your YouTube 
 
 ## Features
 
+- Automatically clean upload labels such as `(Official Video)`, `[Lyrics]` and `[4K]` from song titles, while retaining meaningful Live, Remix and Acoustic labels. No manual editor or song-by-song setup.
+- Advance to the next queued song when a supported event is detected after free roam; keep the current song when returning to free roam.
+- Share station presets containing the station name, replacement slot, current Horizon Radio logo identity and track links. Preview before importing; applying artwork remains a separate step with FH2 closed.
+- Check the queue for duplicate videos and public video metadata, then choose which entries to remove. No automatic removal or playback guarantee.
+- Clear the current queue with confirmation, with session-only Undo while empty. Saved queues, favorites and settings are preserved.
+
 - Replace any of the seven radio stations with your queue. Innovative Leisure is selected by default.
 - Search YouTube by song or artist, or add video links. Choose tracks, reorder entries, repeat a track or the queue and seek within a song.
 - Preview and import public YouTube playlists (up to 500 unique tracks), or choose the initial Most Wanted 2005 / FH5 Bass Arena soundtrack playlists. Append or replace with confirmation.
@@ -49,18 +55,18 @@ Enable **Close to tray** in **Preferences → Window & tray** to keep the app ru
 
 ## Compatibility & privacy
 
-The current release was tested with **Azimuth 0.9.9 / FH2 1.0.0.64**. Azimuth 0.9.10 compatibility was previously confirmed. Other builds are not confirmed compatible. Native audio integration is experimental.
+The native audio integration was previously tested with **Azimuth 0.9.9 / FH2 1.0.0.64**, and Azimuth 0.9.10 compatibility was confirmed by the user. The new 0.7.0 event-entry trigger has automated transition coverage; its timing has not yet been manually confirmed in a real event. Other builds are not confirmed compatible. Native audio integration is experimental.
 
 - The radio adapter modifies game memory while active. Applying the station identity modifies the game's UI archive and manifest, preserving verified originals. Game saves are not modified.
 - Switching off the app returns audio to the original station. The installed visual identity remains until you restore it with FH2 closed.
-- YouTube requests are sent to YouTube. Recommendations use the current track, without your Google account or browsing history. Queue and preferences stay on your PC. Search queries are sent to YouTube without signing in. Optional update checks contact the official GitHub repository. Diagnostic reports are reviewed and exported locally; nothing is uploaded automatically.
+- YouTube requests are sent to YouTube. Recommendations use the current track, without your Google account or browsing history. Queue and preferences stay on your PC. Queue health checks send public video IDs to YouTube only when requested. Search queries are sent to YouTube without signing in. Optional update checks contact the official GitHub repository. Diagnostic reports are reviewed and exported locally; nothing is uploaded automatically.
 - Public YouTube playlist snapshots are supported (PL IDs, up to 500 unique tracks). Private/account-only playlists, YouTube Mix IDs, live playlist synchronization and Spotify queues are not supported. Removed, restricted or unavailable videos may fail. Interrupted streams produce an error instead of advancing as though the song finished.
 
 Version 0.6.1 prepares radio source channels earlier; no original-radio fragment was heard during the tested station transitions. Native audio integration remains experimental. Common unsupported HUD punctuation is normalized, but the game font still limits character support.
 
 ## Feedback & credits
 
-[App page](https://puppetzim.itch.io/fh2-horizon-radio) · [Azimuth community topic](https://itch.io/t/7136486/fh2-horizon-radio-free-in-game-music-queue-for-azimuth)
+[App page](https://puppetzim.itch.io/fh2-horizon-radio) · [GitHub issues](https://github.com/P1upp3t/Forza-Horizon-2-Radio/issues)
 
 See the [FAQ](docs/FAQ.md) for setup, audio and restoration help. When [reporting an issue](https://github.com/P1upp3t/Forza-Horizon-2-Radio/issues/new/choose), include your app, game and Azimuth versions, reproduction steps and what you expected. Review attachments before posting; do not upload saves or your whole runtime folder.
 
