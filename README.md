@@ -8,9 +8,9 @@ A free Windows companion for **Forza Horizon 2 on Azimuth**. Bring your YouTube 
 
 <p align="center"><a href="README.md">English</a> · <a href="docs/translations/README.pt-BR.md">Português (Brasil)</a> · <a href="docs/translations/README.zh-CN.md">简体中文</a> · <a href="docs/translations/README.hi.md">हिन्दी</a> · <a href="docs/translations/README.es.md">Español</a> · <a href="docs/translations/README.fr.md">Français</a> · <a href="docs/translations/README.ar.md">العربية</a> · <a href="docs/translations/README.bn.md">বাংলা</a> · <a href="docs/translations/README.ru.md">Русский</a></p>
 
-## 0.7.2 update
+## 0.7.3 launcher fix
 
-Race restarts can now advance the song during the new countdown. Retired audio-channel records are recycled to prevent the Mixer FH2: -12 exhaustion error. **Close FH2 and quit Horizon Radio before updating, preserve runtime, then restart the game.** [Release notes and validation limits](https://github.com/P1upp3t/Forza-Horizon-2-Radio/releases/tag/v0.7.2).
+Selecting or starting Azimuth no longer requires a sibling folder named FH2. File selection now distinguishes invalid files, settings write failures and browser-only panels. Artwork checks remain separate. [Release notes](https://github.com/P1upp3t/Forza-Horizon-2-Radio/releases/tag/v0.7.3).
 
 ## Features
 

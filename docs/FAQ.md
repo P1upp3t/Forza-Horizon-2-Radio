@@ -48,6 +48,9 @@ Open Help and choose Preview report. Review it before exporting a TXT file. The 
 ## Can I launch the game from the app?
 Use Open FH2 + Radio on Overview. It starts Azimuth and enables the current queue. If needed, choose azimuth.exe in Preferences. An already running game is not launched again. Opening the app alone still leaves the radio disabled.
 
+## Why does selecting azimuth.exe fail?
+Update to 0.7.3 and open the FH2 Radio.exe desktop window. Select the existing azimuth.exe, not a shortcut. Earlier versions incorrectly required an FH2 subfolder beside the launcher; that requirement is removed for selecting and launching Azimuth. If saving fails, the new message identifies a settings write problem: use a writable app folder and try again. A normal browser panel cannot show the desktop file picker. Artwork checks remain separate and still need the supported game UI archive. If it still fails, report the exact new message and app version on issue #2, without posting private paths.
+
 ## How do configuration profiles work?
 Open Preferences → Configuration profiles. Enter a name and save your current preferences as a new profile. You can keep up to 50 profiles and load, update, rename or delete them. Loading asks for confirmation and disables the radio. The current queue and game files stay unchanged. Profiles include station/name, language, volume, repeat, recommendations, normalization, window/tray preferences, startup update checks and compact mode. Changing station/name still requires applying station identity separately with FH2 closed. Keep runtime/profiles.json when updating.
 
