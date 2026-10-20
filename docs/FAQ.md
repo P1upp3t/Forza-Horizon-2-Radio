@@ -93,3 +93,7 @@ No. It checks duplicate video IDs and public metadata, not the full playback str
 
 ## Can I clear or undo my queue?
 Clear queue asks for confirmation and stops playback. Saved queues, favorites, history and settings remain. Undo clear restores the previous queue without enabling playback while the queue remains empty; adding new tracks or closing the app ends that undo opportunity. Removing the current song through the health check also stops playback.
+
+## My game folder is named Anthem instead of FH2. Does artwork work?
+Starting in 0.7.4, station identity reads data/azimuth.ini beside the selected azimuth.exe and resolves the selected title's folder entry. Relative paths are based on the launcher folder; absolute paths work too. Checking, applying and restoring use that folder's Mount/media/UI.zip. If a check fails, its attempted path appears locally in the panel; review/redact it before sharing screenshots. Do not rename folders or change Azimuth's config just for the radio. If a config exists but is invalid, the app stops rather than guessing another game folder.
+
