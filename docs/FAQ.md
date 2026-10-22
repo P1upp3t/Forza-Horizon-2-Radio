@@ -106,3 +106,6 @@ Starting in 0.7.5, the player displays its underlying backend error alongside th
 
 ## An update installed, but restarting shows Failed to load Python DLL. What now?
 Dismiss the error and open FH2 Radio.exe manually. The older updater can pass its temporary extraction state to the new process after that folder has been removed. Version 0.7.6 corrects future updater restarts by starting an independent instance. Updating from an older version still uses that older updater for the first restart, so a manual reopen may be needed once. Preserve runtime; do not delete your queue or install Python to work around this restart failure.
+
+## Every track fails with Could not obtain audio (FileNotFoundError). What should I do?
+Update to 0.7.7. A certificate resource required by the bundled Python runtime was missing from the Windows package, causing the YouTube dependency to fail during import before stream resolution. The corrected package includes that resource and keeps HTTPS certificate and hostname verification enabled. You do not need to install Python or Node, rename the game folder or edit the game's configuration. If playback still fails, share the displayed error after redacting private paths and URLs.

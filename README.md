@@ -8,9 +8,9 @@ A free Windows companion for **Forza Horizon 2 on Azimuth**. Bring your YouTube 
 
 <p align="center"><a href="README.md">English</a> · <a href="docs/translations/README.pt-BR.md">Português (Brasil)</a> · <a href="docs/translations/README.zh-CN.md">简体中文</a> · <a href="docs/translations/README.hi.md">हिन्दी</a> · <a href="docs/translations/README.es.md">Español</a> · <a href="docs/translations/README.fr.md">Français</a> · <a href="docs/translations/README.ar.md">العربية</a> · <a href="docs/translations/README.bn.md">বাংলা</a> · <a href="docs/translations/README.ru.md">Русский</a></p>
 
-## 0.7.6 updater restart fix
+## 0.7.7 YouTube playback fix
 
-Automatic restart after an in-app update now starts an independent instance, preventing the Python DLL loading failure caused by the old process's removed temporary folder. If updating from an older version shows this error once, dismiss it and reopen FH2 Radio.exe manually. [Release notes](https://github.com/P1upp3t/Forza-Horizon-2-Radio/releases/tag/v0.7.6).
+The Windows package now includes the certificate resource required by its bundled Python runtime. Its absence caused FileNotFoundError before YouTube audio could be resolved. HTTPS certificate and hostname verification remain enabled. [Release notes](https://github.com/P1upp3t/Forza-Horizon-2-Radio/releases/tag/v0.7.7).
 
 ## Features
 
