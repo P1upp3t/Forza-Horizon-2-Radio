@@ -103,3 +103,6 @@ Update to 0.7.5. Azimuth on Windows can write this file as UTF-16 with a byte-or
 
 ## How can I identify a playback failure?
 Starting in 0.7.5, the player displays its underlying backend error alongside the translated failure message. Share the error text after removing private paths, URLs or account details. Do not post the full API state or queue. Exposing an error does not itself fix its underlying audio or network cause.
+
+## An update installed, but restarting shows Failed to load Python DLL. What now?
+Dismiss the error and open FH2 Radio.exe manually. The older updater can pass its temporary extraction state to the new process after that folder has been removed. Version 0.7.6 corrects future updater restarts by starting an independent instance. Updating from an older version still uses that older updater for the first restart, so a manual reopen may be needed once. Preserve runtime; do not delete your queue or install Python to work around this restart failure.

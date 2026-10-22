@@ -8,9 +8,9 @@ A free Windows companion for **Forza Horizon 2 on Azimuth**. Bring your YouTube 
 
 <p align="center"><a href="README.md">English</a> · <a href="docs/translations/README.pt-BR.md">Português (Brasil)</a> · <a href="docs/translations/README.zh-CN.md">简体中文</a> · <a href="docs/translations/README.hi.md">हिन्दी</a> · <a href="docs/translations/README.es.md">Español</a> · <a href="docs/translations/README.fr.md">Français</a> · <a href="docs/translations/README.ar.md">العربية</a> · <a href="docs/translations/README.bn.md">বাংলা</a> · <a href="docs/translations/README.ru.md">Русский</a></p>
 
-## 0.7.5 Azimuth configuration encoding fix
+## 0.7.6 updater restart fix
 
-Station identity now accepts Azimuth's Windows UTF-16 configuration files as well as UTF-8. The selected game's configured folder is used for checking, applying and restoring artwork. Playback failures now show the actual backend error in the local panel instead of only a generic message. [Release notes](https://github.com/P1upp3t/Forza-Horizon-2-Radio/releases/tag/v0.7.5).
+Automatic restart after an in-app update now starts an independent instance, preventing the Python DLL loading failure caused by the old process's removed temporary folder. If updating from an older version shows this error once, dismiss it and reopen FH2 Radio.exe manually. [Release notes](https://github.com/P1upp3t/Forza-Horizon-2-Radio/releases/tag/v0.7.6).
 
 ## Features
 
