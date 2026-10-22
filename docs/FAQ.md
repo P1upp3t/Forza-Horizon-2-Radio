@@ -97,3 +97,9 @@ Clear queue asks for confirmation and stops playback. Saved queues, favorites, h
 ## My game folder is named Anthem instead of FH2. Does artwork work?
 Starting in 0.7.4, station identity reads data/azimuth.ini beside the selected azimuth.exe and resolves the selected title's folder entry. Relative paths are based on the launcher folder; absolute paths work too. Checking, applying and restoring use that folder's Mount/media/UI.zip. If a check fails, its attempted path appears locally in the panel; review/redact it before sharing screenshots. Do not rename folders or change Azimuth's config just for the radio. If a config exists but is invalid, the app stops rather than guessing another game folder.
 
+
+## Identity check shows the path to azimuth.ini. What should I do?
+Update to 0.7.5. Azimuth on Windows can write this file as UTF-16 with a byte-order mark; 0.7.4 read only UTF-8. The corrected reader accepts UTF-16 LE/BE with BOM and UTF-8 with or without BOM. Do not convert or edit the configuration as a workaround. If a check still fails, review the attempted path shown in the app before sharing it.
+
+## How can I identify a playback failure?
+Starting in 0.7.5, the player displays its underlying backend error alongside the translated failure message. Share the error text after removing private paths, URLs or account details. Do not post the full API state or queue. Exposing an error does not itself fix its underlying audio or network cause.
