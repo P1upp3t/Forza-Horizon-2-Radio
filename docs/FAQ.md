@@ -109,3 +109,6 @@ Dismiss the error and open FH2 Radio.exe manually. The older updater can pass it
 
 ## Every track fails with Could not obtain audio (FileNotFoundError). What should I do?
 Update to 0.7.7. A certificate resource required by the bundled Python runtime was missing from the Windows package, causing the YouTube dependency to fail during import before stream resolution. The corrected package includes that resource and keeps HTTPS certificate and hostname verification enabled. You do not need to install Python or Node, rename the game folder or edit the game's configuration. If playback still fails, share the displayed error after redacting private paths and URLs.
+
+## Does Horizon Radio work with Azimuth 1.0.3?
+Yes. Horizon Radio 0.7.7 was tested in game on October 28, 2026, and music playback was confirmed working. Update older Radio versions to 0.7.7, preserving runtime. The earlier FileNotFoundError was a Radio packaging issue corrected in 0.7.7. This confirms the tested FH2 1.0.0.64 setup; it is not a compatibility promise for future Azimuth releases.
