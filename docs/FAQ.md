@@ -112,3 +112,6 @@ Update to 0.7.7. A certificate resource required by the bundled Python runtime w
 
 ## Does Horizon Radio work with Azimuth 1.0.3?
 Yes. Horizon Radio 0.7.7 was tested in game on October 28, 2026, and music playback was confirmed working. Update older Radio versions to 0.7.7, preserving runtime. The earlier FileNotFoundError was a Radio packaging issue corrected in 0.7.7. This confirms the tested FH2 1.0.0.64 setup; it is not a compatibility promise for future Azimuth releases.
+
+
+Compatibility update — October 30, 2026: Horizon Radio 0.7.7 has been tested in game with Azimuth 1.0.4 and confirmed working. Azimuth 1.0.3 was previously confirmed on October 28. No new Radio release is needed.

@@ -8,9 +8,9 @@ A free Windows companion for **Forza Horizon 2 on Azimuth**. Bring your YouTube 
 
 <p align="center"><a href="README.md">English</a> · <a href="docs/translations/README.pt-BR.md">Português (Brasil)</a> · <a href="docs/translations/README.zh-CN.md">简体中文</a> · <a href="docs/translations/README.hi.md">हिन्दी</a> · <a href="docs/translations/README.es.md">Español</a> · <a href="docs/translations/README.fr.md">Français</a> · <a href="docs/translations/README.ar.md">العربية</a> · <a href="docs/translations/README.bn.md">বাংলা</a> · <a href="docs/translations/README.ru.md">Русский</a></p>
 
-## Azimuth 1.0.3 compatibility confirmed
+## Azimuth 1.0.4 compatibility confirmed
 
-Horizon Radio **0.7.7** has been tested in game with **Azimuth 1.0.3**; music playback is confirmed working. No new Radio version is required.
+Horizon Radio **0.7.7** has been tested in game with **Azimuth 1.0.4**; music playback is confirmed working. No new Radio version is required.
 
 ## 0.7.7 YouTube playback fix
 
@@ -48,7 +48,7 @@ Version-by-version changes are in [Releases](https://github.com/P1upp3t/Forza-Ho
 
 ## Install & update
 
-Requires **Windows x64**, **Azimuth 1.0.3** (confirmed; 0.9.9 / 0.9.10 were tested previously) and your own legitimate **FH2 1.0.0.64** installation. Python, Node, VLC and a separate browser player are not required. The app window uses Microsoft Edge WebView2. [Get Azimuth](https://almost-there-games.itch.io/azimuth).
+Requires **Windows x64**, **Azimuth 1.0.4** (confirmed; 0.9.9 / 0.9.10 were tested previously) and your own legitimate **FH2 1.0.0.64** installation. Python, Node, VLC and a separate browser player are not required. The app window uses Microsoft Edge WebView2. [Get Azimuth](https://almost-there-games.itch.io/azimuth).
 
 1. [Download the latest release](https://github.com/P1upp3t/Forza-Horizon-2-Radio/releases/latest) and extract `horizon-radio` next to `azimuth.exe`.
 2. Open `FH2 Radio.exe` and search for music or add YouTube video links, one per line.
@@ -83,3 +83,6 @@ All features and downloads are free. [Optional support](https://ko-fi.com/puppet
 [Usage terms](docs/LICENSE.txt) · [Third-party notices](docs/THIRD-PARTY-NOTICES.txt) · [Artwork](docs/ARTWORK.md).
 
 An independent fan project by Puppet / P1upp3t, not affiliated with Microsoft, Xbox, Playground Games, Turn 10, Azimuth, YouTube or Spotify. No game, DLC, game files or license keys are included; donations do not grant a game license.
+
+
+Compatibility update — October 30, 2026: Horizon Radio 0.7.7 has been tested in game with Azimuth 1.0.4 and confirmed working. Azimuth 1.0.3 was previously confirmed on October 28. No new Radio release is needed.
